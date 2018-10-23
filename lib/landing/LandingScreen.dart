@@ -111,10 +111,14 @@ class LandingScreenState extends State<LandingScreen>
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Container(
+          child: Image.asset("assets/qr.png"),
+//          child: AssetImage('graphics/background.png'),
+        ),
+        Container(
           alignment: Alignment.center,
           width: 200.0,
-          height: 200.0,
-          color: Color.fromARGB(20, 0, 255, 0),
+//          height: 200.0,
+//          color: Color.fromARGB(20, 0, 255, 0),
           child: Text("Tap for NFC"),
         )
       ],
