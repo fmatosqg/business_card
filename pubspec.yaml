@@ -68,3 +68,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+  fonts:
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen_Mono/OxygenMono-Regular.ttf
+
+    - family: Varela
+      fonts:
+        - asset: assets/fonts/Varela_Round/VarelaRound-Regular.ttf

@@ -88,20 +88,12 @@ class LandingScreenState extends State<LandingScreen>
           "Android Developer",
           style: Theme.of(context).textTheme.subhead,
         ),
-        Row(
-          children: <Widget>[
-//            Icon(
-//              Icons.android,
-//              color: Colors.lightGreen,
-//            ),
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsets.all(40.0),
+        Expanded(
+          child: Container(),
         ),
         TextWithImage(Icons.phone, "(+61) 481 114 500"),
         TextWithImage(Icons.email, "amazingappsemail@gmail.com"),
-        TextWithImage(Icons.web, "http://amazingdomain.net/business_card"),
+        TextWithImage(Icons.web, "http://amazingdomain.net/bc.html"),
       ],
     );
   }
@@ -111,11 +103,14 @@ class LandingScreenState extends State<LandingScreen>
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Container(
+          padding: EdgeInsets.all(4.0),
+          color: Color.fromARGB(10, 0, 100, 0),
           child: Image.asset("assets/qr.png"),
 //          child: AssetImage('graphics/background.png'),
         ),
         Container(
           alignment: Alignment.center,
+          padding: EdgeInsets.all(8.0),
           width: 200.0,
 //          height: 200.0,
 //          color: Color.fromARGB(20, 0, 255, 0),
